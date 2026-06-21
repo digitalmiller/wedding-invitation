@@ -239,7 +239,7 @@ function App() {
             <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-16 mt-10 mb-10">
               <div className="text-center">
                 <p className="font-['Playfair_Display'] text-xl md:text-2xl text-slate-700">Sevda & Mehmet</p>
-                <p className="text-xs md:text-sm font-sans uppercase tracking-[0.2em] text-[#7A9E8D] mt-1">Özmen Ailesi</p>
+                <p className="text-xs md:text-sm font-sans uppercase tracking-[0.2em] text-[#7A9E8D] mt-1">Özmen Aİlesİ</p>
               </div>
               
               {/* Araya zarif bir dikey çizgi */}
@@ -247,7 +247,7 @@ function App() {
               
               <div className="text-center">
                 <p className="font-['Playfair_Display'] text-xl md:text-2xl text-slate-700">Ayşe & Orhan</p>
-                <p className="text-xs md:text-sm font-sans uppercase tracking-[0.2em] text-[#7A9E8D] mt-1">Değirmenci Ailesi</p>
+                <p className="text-xs md:text-sm font-sans uppercase tracking-[0.2em] text-[#7A9E8D] mt-1">Değİrmencİ Aİlesİ</p>
               </div>
             </div>
 
