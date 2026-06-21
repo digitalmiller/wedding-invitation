@@ -219,7 +219,7 @@ function App() {
             className="text-center bg-white/70 p-8 md:p-12 w-[90%] max-w-2xl rounded-3xl backdrop-blur-xl shadow-2xl border border-white relative z-10"
           >
             <p className="text-xs md:text-sm tracking-[0.3em] uppercase mb-6 text-[#7A9E8D] font-sans">
-              Birlikte Yeni Bir Hayata
+              Bİrlİkte Yenİ Bİr Hayata
             </p>
 
             <h1 className="text-6xl md:text-8xl font-['Great_Vibes'] text-[#C45B54] mb-6 drop-shadow-sm">
