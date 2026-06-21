@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const Countdown = () => {
-  const targetDate = new Date('2026-07-14T00:00:00');
+  const targetDate = new Date('2026-07-14T19:30:00+03:00');
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -22,6 +22,9 @@ const Countdown = () => {
           minutes: Math.floor((difference / 1000 / 60) % 60),
           seconds: Math.floor((difference / 1000) % 60),
         });
+      } else {
+        // Süre dolduğunda sayacın 0'da kalmasını sağlar
+        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
       }
     };
 
