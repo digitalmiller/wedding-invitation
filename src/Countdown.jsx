@@ -43,7 +43,7 @@ const Countdown = () => {
       
       <div className="w-16 h-px bg-[#D96C60]/30 mb-6"></div>
 
-      <div className="flex justify-center space-x-4 md:space-x-8">
+      <div className="flex justify-center space-x md:space-x-8">
         {[
           { label: 'Gün', value: timeLeft.days },
           { label: 'Saat', value: timeLeft.hours },
