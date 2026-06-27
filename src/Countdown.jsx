@@ -36,7 +36,7 @@ const Countdown = () => {
   const formatNumber = (num) => String(num).padStart(2, '0');
 
   return (
-    <div className="flex flex-col items-center mt-12 mb-8">
+    <div translate="no" className="flex flex-col items-center mt-12 mb-8 notranslate">
       <h3 className="text-xs md:text-sm tracking-[0.2em] uppercase text-[#7A9E8D] mb-3 font-sans font-medium">
         Büyük Güne Kalan Süre
       </h3>
